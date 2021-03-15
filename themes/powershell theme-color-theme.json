@@ -27,10 +27,10 @@
 				"punctuation.definition.parameters.begin.js",
 				"punctuation.definition.block.js",
 				"meta.block.js",
-				"punctuation.accessor.optional.js",
+				"punctuation.accessor.optional.js"
 			],
 			"settings": {
-				"foreground": "#e0d0d3"
+				"foreground": "#c4dbdb"
 			}
 		},
 		{
@@ -38,7 +38,9 @@
 			"scope": [
 				"punctuation.definition.template-expression.begin.js",
 				"punctuation.definition.template-expression.end.js",
-				"meta.template.expression.js"
+				"meta.template.expression.js",
+				"constant.language.undefined.js",
+				"constant.language.null.js"
 			],
 			"settings": {
 				"foreground": "#f1bf85"
@@ -49,21 +51,19 @@
 			"scope": [
 				"storage.type.class.jsdoc",
 				"variable.parameter",
-				"storage.type.function.js"
+				"storage.type.function.js",
+				"keyword.control.flow.js"
 			],
 			"settings": {
 				"foreground": "#d782ff",
 			}
 		},
 		{
-			"name": "Booleans, return etc.",
+			"name": "Booleans",
 			"scope": [
 				"variable.parameter",
 				"constant.language.boolean.true.js",
-				"constant.language.boolean.false.js",
-				"variable.other.readwrite.js",
-				"meta.var.expr.js",
-				"keyword.control.flow.js"
+				"constant.language.boolean.false.js"
 			],
 			"settings": {
 				"foreground": "#53c8ff"
@@ -73,12 +73,28 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
+				"variable.other.readwrite.js",
+				"meta.var.expr.js",
 				"string constant.other.placeholder",
 				"meta.var-single-variable.expr.js",
 				"meta.definition.variable.js",
+				"variable.other.object.js",
+				"meta.function-call.js",
+				"meta.object-literal.key.js",
+				"meta.object.member.js",
+				"meta.objectliteral.js"
 			],
 			"settings": {
 				"foreground": "#c4dbdb"
+			}
+		},
+		{
+			"name": "Try Catch",
+			"scope": [
+				"keyword.control.trycatch.js"
+			],
+			"settings": {
+				"foreground": "#d782ff"
 			}
 		},
 		{
@@ -285,10 +301,7 @@
 			"scope": [
 				"entity.name.module.js",
 				"variable.import.parameter.js",
-				"variable.other.class.js",
-				"variable.other.object.js",
-				"meta.object-literal.key.js",
-				"meta.object.member.js"
+				"variable.other.class.js"
 			],
 			"settings": {
 				"foreground": "#e0d0d3"
