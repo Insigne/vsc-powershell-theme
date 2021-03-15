@@ -6,7 +6,7 @@
     "author": {
         "name": "Insigne"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.54.0"
     },
@@ -30,14 +30,20 @@
         "Purple",
         "Blue",
         "Cobalt",
-        "Orange"
+        "Orange",
+        "Grey"
     ],
     "contributes": {
         "themes": [
             {
-                "label": "powershell theme",
+                "label": "PowerShell Theme Default",
                 "uiTheme": "vs-dark",
                 "path": "./themes/powershell theme-color-theme.json"
+            },
+            {
+                "label": "PowerShell Theme Grey",
+                "uiTheme": "vs-dark",
+                "path": "./themes/powershell theme-color-theme-grey.json"
             }
         ]
     }
