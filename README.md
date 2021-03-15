@@ -1,0 +1,1 @@
+# vsc-powershell-theme
