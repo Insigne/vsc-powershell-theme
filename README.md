@@ -1,1 +1,1 @@
-# vsc-powershell-theme
+**Enjoy!**

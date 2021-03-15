@@ -1,0 +1,44 @@
+{
+    "name": "powershell",
+    "displayName": "PowerShell Theme",
+    "description": "",
+    "publisher": "Insigne",
+    "author": {
+        "name": "Insigne"
+    },
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Insigne/vsc-powershell-theme.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Insigne/vsc-powershell-theme/issues"
+    },
+    "galleryBanner": {
+        "color": "#292D3E",
+        "theme": "dark"
+    },
+    "icon": "images/icon256x256.png",
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "Dark Theme",
+        "Purple",
+        "Blue",
+        "Cobalt",
+        "Orange"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "powershell theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/powershell theme-color-theme.json"
+            }
+        ]
+    }
+}
